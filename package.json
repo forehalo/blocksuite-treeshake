@@ -1,4 +1,15 @@
 {
   "name": "blocksuite-treeshake",
-  "packageManager": "yarn@4.4.1"
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "build": "rspack"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.0.4",
+    "@rspack/core": "^1.0.4"
+  },
+  "dependencies": {
+    "@blocksuite/blocks": "^0.17.8",
+    "yjs": "^13.6.19"
+  }
 }
